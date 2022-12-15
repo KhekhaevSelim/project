@@ -1,0 +1,102 @@
+*{
+    box-sizing:border-box;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 10px;
+    font-size: 24px;
+}
+
+input, textarea, select{
+    background-color:rgb(123, 238, 123);
+    border-radius: 10px;
+}
+.container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.detailes{
+    flex:3;
+}
+
+.address .formgroup{
+    display: flex;
+    margin: 1em;
+}
+
+
+.address .formgroup label{
+    flex: 1;
+    text-align: right;
+    margin-right: 1em;
+}
+
+.address .formgroup input{
+    flex:3;
+    font-size: 24px;
+}
+
+.shipping{
+    text-align: center;
+}
+
+.shipping select {
+    font-size: 24px;
+    margin-top: 0.5em;
+}
+
+.payment {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.payment div:nth-child(2) {
+    display: flex;
+}
+.payment div:nth-child(2) label {
+    flex: 1;
+    margin-top: 0.5em;
+}
+
+.checks {
+    display: flex;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.checks label:nth-child(2){
+    order: -1;
+}
+
+.checks label{
+    flex:1;
+}
+
+.comments{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.comments textarea{
+    flex:1;
+}
+
+.submit{
+    margin-top: auto;
+    text-align: center;
+
+}
+
+.submit input{
+    background-color:rgb(13, 178, 228);
+    width:100%;
+    color:aliceblue;
+    font-size: 1em;
+    border-radius: 0px;
+}
